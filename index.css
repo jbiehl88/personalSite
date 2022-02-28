@@ -1,0 +1,121 @@
+header {
+    height: 100px;
+    background: black;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    align-items:center;
+    justify-content: space-between;
+    box-shadow: 5px 5px grey;
+  }
+  html {
+     background: url(images/jdqu00k0.bmp) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    }  
+
+  a:link {
+    color: tan;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .containter {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    color: tan;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  nav {
+    height: inherit;
+  }
+  .menu {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .menu li {
+    padding: 0 10px;
+  }
+  .menu a {
+    color: tan;
+    font-size: 40px;
+  }
+  .logo {
+    flex-grow: 1;
+    font-size: 40px;
+  }
+  #topH {
+    width: 75%;
+    position: relative;
+    background: transparent;
+    height: 100%; 
+    padding: 30px 10%;
+    color: white;
+    text-align:center;
+    font-size: 2em;
+  }
+  .topPar {
+    width: 75%;
+    position: relative;
+    top: 100px; 
+    background: transparent;
+    height: 100%; 
+    padding: 30px 10%;
+    color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: tan;
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    box-shadow: 5px -5px grey;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgb(2, 1, 1);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 60%;
+    background-color:tan;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    text-align: center;
+    padding: 5px;
+  }
+  .contain1 {
+    padding: 2px 1rem;
+    position:flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .images {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .image2 {
+    width: 250px;
+  }
+  .image3 {
+    width: 100px;
+    float: right;
+  }
+  article {
+    font-size: 20px;
+  }
+  section {
+    font-size: 3rem;
+  }
